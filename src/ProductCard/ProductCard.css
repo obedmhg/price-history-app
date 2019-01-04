@@ -1,0 +1,9 @@
+.product-card {
+  display: inline-block;
+  margin: 10px;
+  inline: box align;
+  border: 1px solid #eee;
+  box-shadow:   0 2px 2px #ccc;
+  width: 270px;
+  padding: 20px;
+}

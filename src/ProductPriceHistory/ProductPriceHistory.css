@@ -1,0 +1,8 @@
+.product-price-history {
+  display: inline-block;
+  margin: 10px;
+  inline: box align;
+  border: 1px solid #eee;
+  box-shadow:   0 2px 2px #ccc;
+  padding: 20px;
+}
