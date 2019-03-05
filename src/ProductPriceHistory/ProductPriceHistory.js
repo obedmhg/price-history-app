@@ -8,7 +8,7 @@ import PriceChart from '../PriceChart/PriceChart.js';
 const productPriceHistory = (props) => {
 return (
 <div className="product-price-history">
-<ProductCard imageUrl="https://ss423.liverpool.com.mx/xl/1077376891_1p.jpg" name="PS4" currentPrice="$6500.00" />
+<ProductCard imageUrl={props.imageUrl} name={props.title} currentPrice={props.price} />
 <SitesPicker />
 <PriceChart chartTitle="PriceChart"/>
 </div>
