@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "title": "Ps 4 Bundle", "imageUrl" : "https://ss423.liverpool.com.mx/xl/1077376891_1p.jpg", "price" : "6505.00" },
+    { "id": 2, "title": "Resident Evil 2", "imageUrl" : "https://ss423.liverpool.com.mx/xl/1077376891_1p.jpg", "price" : "1300.00"   },
+    { "id": 3, "title": "Switch", "imageUrl" : "https://ss423.liverpool.com.mx/xl/1077376891_1p.jpg", "price" : "7505.00"   }
+  ]
+}
