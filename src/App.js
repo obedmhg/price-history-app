@@ -10,9 +10,13 @@ class App extends Component {
   };
   
   componentDidMount() {
-    axios.get('https://my-json-server.typicode.com/obedmhg/price-history-app/products')
+    const endpoint = 'https://my-json-server.typicode.com/obedmhg/price-history-app/products';
+    axios.get(endpoint)
       .then(response => {
         this.setState({products: response.data})
+      })
+      .catch(error => {
+        alert('Something went wrong at service : ' + endpoint);
       });
   }
 
