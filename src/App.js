@@ -10,7 +10,7 @@ class App extends Component {
   };
   
   componentDidMount() {
-    const endpoint = 'https://my-json-server.typicode.com/obedmhg/price-history-app/products';
+    const endpoint = '/products';
     axios.get(endpoint)
       .then(response => {
         this.setState({products: response.data})

@@ -5,8 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
 
+axios.defaults.baseURL = 'https://my-json-server.typicode.com/obedmhg/price-history-app/';
+axios.defaults.headers.common['Authorization'] = 'AUTH TOKEN';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
+
 axios.interceptors.request.use(request => {
-    request.headers = {'myHeader': 'Testing custome Header'};
     console.log(request);
     return request;
 }, error => {
